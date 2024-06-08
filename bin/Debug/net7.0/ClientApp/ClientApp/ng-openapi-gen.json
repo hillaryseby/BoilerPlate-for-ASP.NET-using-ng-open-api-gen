@@ -1,0 +1,16 @@
+{
+    "$schema": "./node_modules/ng-openapi-gen/ng-openapi-gen-schema.json",
+    "input": "http://localhost:50834/swagger/v1/swagger.json",
+    "output": "../../ClientApp/ClientApp/src/OpenApiGen",
+    "ignoreUnusedModels": true,
+    "minParamsForContainer": 2,
+    "sortParams": "desc",
+    "defaultTag": "Api",
+    "removeStaleFiles": true,
+    "modelIndex": true,
+    "serviceIndex": true,
+    "apiModule": true,
+    "enumModule": true,
+    "generateExamples": false,
+    "camelCase": false
+  }
